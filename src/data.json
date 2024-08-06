@@ -67,22 +67,7 @@
       "contribution": "100%",
       "date": "1.3 ~ 1.18"
     },
-    {
-      "dataaos": "fade-right",
-      "title1": "THIS PROJECT IS",
-      "title2": "MOVIEFLIX",
-      "img": "img/movieflix_project.jpg",
-      "img2": "popup_img/movieflexmobile.jpg",
-      "avatar": "모바일 전용 사이트. 영화진흥위원회 오픈 API를 활용,",
-      "avatar2": "일별 박스오피스 랭킹(1위~10위), 누적관객수, 개봉일 추출을 통한 시각화",
-      "useskill": "img/html.png",
-      "useskill2": "img/sass.png",
-      "useskill3": "img/javascript.png",
-      "useskill4": "img/react.png",
-      "github": "img/github.png",
-      "contribution": "100%",
-      "date": "1.3 ~ 1.18"
-    },
+
     {
       "dataaos": "fade-left",
       "title1": "THIS PROJECT IS",
@@ -95,6 +80,7 @@
       "useskill2": "img/sass.png",
       "useskill3": "img/javascript.png",
       "useskill4": "img/react.png",
+      "adress": "https://portfolio-ye-jin.netlify.app/",
       "github": "img/github.png",
       "contribution": "100%",
       "date": "1.3 ~ 1.18"

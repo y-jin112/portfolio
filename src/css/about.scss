@@ -39,6 +39,7 @@ main{
             margin-right: 2em;
             margin-top: 2em;
         }
+        
         .profile_section{
             margin-right: 4em;
             margin-top: 1em;
@@ -53,13 +54,21 @@ main{
                 color: #464646;
             }
         }
-        .education{
-            margin-top: 1em;
-            p{
-                color: #464646;
-                margin-top: .8em;
+        
+        
+
+        .profile{
+            .education{
+                margin-top: 1em;
+                p{
+                    color: #464646;
+                    margin-top: .8em;
+                }
             }
+           
         }
+        
+        
         .about_me_under{
             display: flex;
             justify-content: space-between;
