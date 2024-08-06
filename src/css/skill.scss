@@ -1,0 +1,222 @@
+
+
+.skill_section{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0 3em 0;
+    
+    h2{
+        margin-top: 4em;
+        margin-bottom: 2em;
+        letter-spacing: 0.2em;
+        background: linear-gradient(to top, #FF9CBB 50%, transparent 50%);
+        font-weight: bold;
+        display: inline-block;
+        font-size: 3.5rem;
+    }
+    .skills{
+        .skills_title{
+            display: flex;
+            justify-content: center;
+        }
+        .skills_section{
+            display: flex;
+            align-items: flex-start;
+            .front_end:hover, .skill_section .skills .skills_section  .front_end:focus, .skill_section .skills .skills_section  .front_end:active{
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+            .front_end{
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                border-radius: 20px;
+                font-size: 1rem;
+                width: 350px;
+                margin-right: 4em;
+                margin-bottom: 20px;
+            
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+                .html,.css,.js_jquery,.react{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 2em;
+                }
+                img{
+                    width: 3.5em; height: 3.5em;
+                }
+            }
+            .git{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                font-size: 1rem;
+                width: 400px;
+                height: 200px;
+                margin-bottom: 4em;
+            
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+                img{
+                    width: 4em; height: 4em;
+                }
+            }
+            .git:hover, .skill_section .skills .skills_section  .git:focus, .skill_section .skills .skills_section  .git:active{
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+
+
+            .version_control{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                font-size: 1rem;
+                width: 400px;
+                height: 200px;
+                margin-bottom: 4em;
+            
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+                
+                img{
+                    width: 4em; height: 4em;
+                }
+            }
+            .version_control:hover, .skill_section .skills .skills_section  .version_control:focus, .skill_section .skills .skills_section  .version_control:active{
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+            .communication{
+                display: flex;
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                border-radius: 20px;
+                font-size: 1rem;
+                width: 400px;
+                height: 200px;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 5px 5px 5px 5px #f3f3f3;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+                
+                img{
+                    width: 5em; height: 5em;
+                    margin-bottom: 1em;
+                }
+            }
+            .communication:hover, .skill_section .skills .skills_section  .communication:focus, .skill_section .skills .skills_section  .communication:active{
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+            .deplayment{
+                .mysql{
+                    display: flex;
+                    box-shadow: 5px 5px 5px 5px #f3f3f3;
+                    border-radius: 20px;
+                    font-size: 1rem;
+                    width: 400px;
+                    height: 200px;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 3em;
+                
+                    vertical-align: middle;
+                    -webkit-transform: perspective(1px) translateZ(0);
+                    transform: perspective(1px) translateZ(0);
+                    box-shadow: 5px 5px 5px 5px #f3f3f3;
+                    -webkit-transition-duration: 0.3s;
+                    transition-duration: 0.3s;
+                    -webkit-transition-property: transform;
+                    transition-property: transform;
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+                    img{
+                        width: 5em; height: 5em;
+                    }
+                }
+                .mysql:hover, .skill_section .skills .skills_section  .mysql:focus, .skill_section .skills .skills_section  .mysql:active{
+                    -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+                }
+                .firebase{
+                    display: flex;
+                    box-shadow: 5px 5px 5px 5px #f3f3f3;
+                    border-radius: 20px;
+                    font-size: 1rem;
+                    width: 400px;
+                    height: 200px;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 3em;
+                    margin-top: 4em;
+                
+                    vertical-align: middle;
+                    -webkit-transform: perspective(1px) translateZ(0);
+                    transform: perspective(1px) translateZ(0);
+                    box-shadow: 5px 5px 5px 5px #f3f3f3;
+                    -webkit-transition-duration: 0.3s;
+                    transition-duration: 0.3s;
+                    -webkit-transition-property: transform;
+                    transition-property: transform;
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+                    img{
+                        width: 5em; height: 5em;
+                    }
+                }
+                .firebase:hover, .skill_section .skills .skills_section  .firebase:focus, .skill_section .skills .skills_section  .firebase:active{
+                    -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+                }
+                
+            }
+            
+        }
+
+    }
+}

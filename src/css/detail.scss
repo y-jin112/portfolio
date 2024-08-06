@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans+KR:wght@100;400&display=swap');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p_section{
+    font-family: 'Montserrat', sans-serif;
+    
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        .detail_img{
+            width: 1100px;
+            height: 700px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .title{
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(to top, #abe0fa 50%, transparent 50%);
+            
+        }
+
+        .sub_section{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 100;
+            font-size: 1.1em;
+            
+            .date{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{margin: 2px;}
+                
+            }
+            .contribution{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{margin: 2px;}
+            }
+            .skillimg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 40px; height: 40px;
+                }
+                .useskill{
+                    margin-right: 1em;
+                }
+            }
+            .avatar{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-content: center;
+                align-items: center;
+                p{
+                    margin: 2px;
+                }
+                
+            }
+            .adress{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+                
+
+                .website{
+                    text-decoration: none;
+                    text-decoration-line: none;
+                    font-size: 2em;
+                    cursor: pointer;
+                    color: black;
+                   
+                }
+               .website:hover{
+                background: linear-gradient(to top, #abe0fa 50%, transparent 50%);
+               }
+            }
+            .github_adress{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+        }
+        
+
+    }
+}

@@ -1,0 +1,135 @@
+main {
+  margin: 7rem;
+  overflow: hidden;
+}
+
+main .main_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  font-size: 5rem;
+}
+
+main .main_front_section {
+  height: 100%;
+  background-color: #f5f5f7;
+  border-radius: 2%;
+}
+
+main .main_front_section .about_me {
+  margin-left: 3em;
+}
+
+main .main_front_section .about_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main_front_section h2 {
+  letter-spacing: 0.2em;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #abe0fa), color-stop(50%, transparent));
+  background: linear-gradient(to top, #abe0fa 50%, transparent 50%);
+  font-weight: bold;
+  margin-bottom: 1em;
+  display: inline-block;
+  font-size: 3.5rem;
+}
+
+main .main_front_section .about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main_front_section .profile_img img {
+  width: 300px;
+  height: 300px;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+main .main_front_section .profile_section {
+  margin-right: 4em;
+  margin-top: 1em;
+  margin-left: 1rem;
+}
+
+main .main_front_section .profile_section h3 {
+  margin-top: .5rem;
+  font-size: 2rem;
+}
+
+main .main_front_section .profile_section p {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #464646;
+}
+
+main .main_front_section .education {
+  margin-top: 1em;
+}
+
+main .main_front_section .education p {
+  color: #464646;
+  margin-top: .8em;
+}
+
+main .main_front_section .about_me_under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 3em;
+  margin: 3rem 10rem 0 10rem;
+}
+
+main .main_front_section .about_me_under b {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #abe0fa), color-stop(50%, transparent));
+  background: linear-gradient(to top, #abe0fa 50%, transparent 50%);
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+main .main_front_section .about_me_under p {
+  margin: .5em 0 0 0;
+  font-size: 1rem;
+}
+
+main .main_front_section .about_me_under .archiving img {
+  width: 3em;
+  height: 3em;
+}
+
+main .main_front_section .about_me_under .archiving ul {
+  padding: 0;
+}
+
+main .main_front_section .about_me_under .archiving li {
+  list-style: none;
+  font-size: 1rem;
+  color: #464646;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=about.css.map */
